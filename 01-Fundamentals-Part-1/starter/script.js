@@ -87,16 +87,52 @@ TEST DATA 2: Mark weighs 95 kg and is 1.88 m tall.
 John weighs 85 kg and is 1.76 m tall.
 */
 
-const markHeight = 1.69;
-const markWeight = 78;
-const jamesHeight = 1.95;
-const jamesWeight = 92;
-console.log( markHeight, markWeight, jamesHeight, jamesWeight);
+// const markHeight = 1.69;
+// const markWeight = 78;
+// const jamesHeight = 1.95;
+// const jamesWeight = 92;
+// console.log( markHeight, markWeight, jamesHeight, jamesWeight);
 
-const markBMI = markWeight / markHeight **2; 
-console.log ("Mark's BMI: " + markBMI);
-const jamesBMI = jamesWeight /jamesHeight ** 2;
-console.log ("James' BMI: " + jamesBMI);
+// const markBMI = markWeight / markHeight **2;
+// console.log ("Mark's BMI: " + markBMI);
+// const jamesBMI = jamesWeight /jamesHeight ** 2;
+// console.log ("James' BMI: " + jamesBMI);
 
-const markHigherBMI = markBMI > jamesBMI;
-console.log("Is Mark's BMI Higher?  " + markHigherBMI);
+// const markHigherBMI = markBMI > jamesBMI;
+// console.log("Is Mark's BMI Higher?  " + markHigherBMI);
+
+// const firstName = "Jonas";
+// const job = "teacher";
+// const birthYear = 1991;
+// const year = 2037
+
+// const jonas = "I'm " + firstName + ", a " + (year - birthYear) + " year-old " + job + "!";
+// console.log(jonas);
+
+// const jonasNew = `I'm ${firstName}, a ${year-birthYear} year-old ${job}!`
+// console.log(jonasNew);
+
+// console.log('String with \n \multiple \n\ lines');
+
+// console.log(`String with
+// multiple
+// lines`);
+
+const age = 15;
+
+if (age >= 18) {
+  console.log('Sarah can start driving license 😁');
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah has to wait ${yearsLeft} years to start her license 🤦‍♂️`);
+}
+
+const birthYear = 2012;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
