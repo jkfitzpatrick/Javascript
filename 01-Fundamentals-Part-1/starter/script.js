@@ -87,3 +87,16 @@ TEST DATA 2: Mark weighs 95 kg and is 1.88 m tall.
 John weighs 85 kg and is 1.76 m tall.
 */
 
+const markHeight = 1.69;
+const markWeight = 78;
+const jamesHeight = 1.95;
+const jamesWeight = 92;
+console.log( markHeight, markWeight, jamesHeight, jamesWeight);
+
+const markBMI = markWeight / markHeight **2; 
+console.log ("Mark's BMI: " + markBMI);
+const jamesBMI = jamesWeight /jamesHeight ** 2;
+console.log ("James' BMI: " + jamesBMI);
+
+const markHigherBMI = markBMI > jamesBMI;
+console.log("Is Mark's BMI Higher?  " + markHigherBMI);
